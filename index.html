@@ -1,108 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RGB-D Digital Twin for Education</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f9fa;
-    }
-    .hero {
-      background-color: #002b5c;
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-      position: relative;
-    }
-    .action-icons {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-    .action-icons a {
-      color: white;
-      margin-left: 15px;
-      font-size: 1.5rem;
-      transition: color 0.3s;
-    }
-    .action-icons a:hover {
-      color: #ffc107;
-    }
-    .section {
-      padding: 40px 20px;
-    }
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-    footer {
-      background: #f1f1f1;
-      padding: 20px 0;
-      margin-top: 40px;
-    }
-  </style>
-</head>
-<body>
-  <div class="hero">
-    <div class="action-icons">
-      <a href="https://github.com/7unahan/7unahan.github.io" target="_blank" title="GitHub Repository">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="#" title="Read Paper (soon)">
-        <i class="fas fa-file-alt"></i>
-      </a>
-    </div>
-    <h1>RGB-D Digital Twin Dataset for Education</h1>
-    <p class="lead">Analyzing student attention with Digital Twin and RGB-D technology</p>
-  </div>
+<div class="hero">
+  <h1>RGB-D Digital Twin Dataset for Education</h1>
+  <p class="lead">Analyzing student attention with Digital Twin and RGB-D technology</p>
 
-  <div class="container section">
-    <h2>Project Overview</h2>
-    <p>
-      The concept of a Digital Twin originated in 1997, but its foundations date back to NASA’s 1960s simulations.
-      It gained renewed interest post-COVID, especially in educational applications. This project proposes a Digital
-      Twin dataset for classrooms using the Intel RealSense D435i RGB-D camera, enabling gaze tracking analysis
-      in a 3D virtual classroom environment.
-    </p>
+  <!-- Yeni Butonlar -->
+  <div class="mt-4">
+    <a href="https://github.com/7unahan/7unahan.github.io" target="_blank" class="btn btn-light btn-lg me-2">
+      <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/github.svg" alt="GitHub" width="20" style="margin-bottom: 3px;">
+      GitHub
+    </a>
+    <a href="https://your-paper-link.com" target="_blank" class="btn btn-outline-light btn-lg">
+      <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/file-earmark-text.svg" alt="Paper" width="20" style="margin-bottom: 3px;">
+      Paper
+    </a>
   </div>
-
-  <div class="container section">
-    <h2>Sample Visuals</h2>
-    <div class="row">
-      <div class="col-md-6 mb-3">
-        <img src="img/dijital ikiz2.png" alt="Gaze Line Visualization">
-      </div>
-      <div class="col-md-6 mb-3">
-        <img src="img/sonuc2.png" alt="Classroom Twin Visualization">
-      </div>
-    </div>
-  </div>
-
-  <div class="container section">
-    <h2>Technology Stack</h2>
-    <ul>
-      <li>Intel RealSense D435i RGB-D Camera</li>
-      <li>Point cloud processing via MeshLab</li>
-      <li>Unity 3D for scene creation and animation</li>
-      <li>Gaze line dataset generation for attention tracking</li>
-    </ul>
-  </div>
-
-  <div class="container section">
-    <h2>Resources</h2>
-    <ul>
-      <li><strong>Paper:</strong> <a href="#" target="_blank">Coming soon</a></li>
-      <li><strong>Dataset / Code:</strong> <a href="https://github.com/7unahan/7unahan.github.io" target="_blank">GitHub Repository</a></li>
-    </ul>
-  </div>
-
-  <footer class="text-center text-muted">
-    &copy; 2025 7unahan — Digital Twin for Education
-  </footer>
-</body>
-</html>
+</div>
